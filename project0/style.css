@@ -1,0 +1,37 @@
+body{
+    background-color: cyan;
+    color:coral;
+    font-weight: bold;
+    font-size: x-large;
+}
+h1{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    color:coral;
+    font-style: italic;
+    text-align: center;
+}
+ul { 
+    display: inline-block;
+    text-align: center;
+}
+table, th, td{
+    border: 2px solid black;
+    text-align: center;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+h2{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+ol {
+    width: 70%;
+    margin: auto;
+}
