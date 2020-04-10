@@ -1,0 +1,12 @@
+$bg-color:cyan;
+$colour:coral;
+$fontw:bold;
+$fonts:x-large;
+
+body{
+    background-color: $bg-color;
+    color:$colour;
+    font-weight: $fontw;
+    font-size: $fonts;
+}
+
