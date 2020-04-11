@@ -1,3 +1,4 @@
+// SCSS Variables
 $bg-color:cyan;
 $colour:coral;
 $fontw:bold;
@@ -9,6 +10,7 @@ body{
     font-weight: $fontw;
     font-size: $fonts;
 }
+// SCSS Nesting
 div
 {
     p{
@@ -20,5 +22,14 @@ div
         border: 2px solid black;
         text-align: center;
     }
-
+}
+// SCSS Inheritance
+h1{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    @extend h1;
+    color: green;
 }

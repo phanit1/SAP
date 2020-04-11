@@ -15,4 +15,14 @@ div table, div th, div td {
   border: 2px solid black;
   text-align: center;
 }
+
+h1, h2 {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+}
 /*# sourceMappingURL=style1.css.map */
