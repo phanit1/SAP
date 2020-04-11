@@ -9,4 +9,16 @@ body{
     font-weight: $fontw;
     font-size: $fonts;
 }
+div
+{
+    p{
+        color:coral;
+        font-style: italic;
+        text-align: center;
+    }
+    table, th, td{
+        border: 2px solid black;
+        text-align: center;
+    }
 
+}

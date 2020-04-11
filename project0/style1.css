@@ -4,4 +4,15 @@ body {
   font-weight: bold;
   font-size: x-large;
 }
+
+div p {
+  color: coral;
+  font-style: italic;
+  text-align: center;
+}
+
+div table, div th, div td {
+  border: 2px solid black;
+  text-align: center;
+}
 /*# sourceMappingURL=style1.css.map */

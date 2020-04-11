@@ -3,17 +3,8 @@ h1{
     font-weight: bold;
     text-align: center;
 }
-p{
-    color:coral;
-    font-style: italic;
-    text-align: center;
-}
 ul { 
     display: inline-block;
-    text-align: center;
-}
-table, th, td{
-    border: 2px solid black;
     text-align: center;
 }
 table.center {
