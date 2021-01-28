@@ -1,0 +1,59 @@
+APIS
+
+1. api/search/ - POST method - Body : string searched(JSON Format)
+                 respone - list of books avalilable in json format
+
+                 success - 200, json(response)
+                 searchnotfound - 404,json(Invalid query)
+                 database - 500, json(Try again)
+
+2. api/books/ - GET method - query : isbn
+                response - book details in json format
+                success - 200, json(response)
+                 searchnotfound - 404,json(Invalid query)
+                 database - 500, json(Try again)
+
+3. api/submit_review - POST method - body: rating: int [JSON FORMAT]
+                                           review : string
+                        reponse - valid submission text
+
+                    success  - 200, json("Reviewed successfully")
+                    multiple reviews - failed - 400
+                    invalid bad request - 400
+                    database - 500
+
+test_application will be done using unittest by looking at status codes and their respective responses
+
+
+FRONTEND
+
+<div class = "row">
+<div class = "col-md-6" id = "search">Search Results</div>
+<div class = "col-md-6">
+<div class = "row" id = "book">Book Details</div>
+<div class = "row" id = "form">Review Form</div>
+<div class = "row" id ="reviews" >Review </div>
+</div>
+</div>
+<div tag></div>
+
+Javascript function calls
+onclick or onsubmit - we call functions in script
+in the script, we can api requests using AJAX. => Valid response = > Store the response.
+
+if response is vlid - 200 -search .innerHTML =" <li> of results"
+.innerHTML("reviews") = ""
+
+
+-------------------------|--------------------------------|
+						|
+						|								 |
+														 |
+														 |
+							--------------------------------------							 |
+														 |
+														 |
+
+
+
+
